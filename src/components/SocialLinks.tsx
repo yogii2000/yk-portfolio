@@ -22,7 +22,7 @@ const SocialLinks = () => {
         {id:4,child:(
             <>Resume <BsFillPersonLinesFill size={25}/></>
         ),
-        href:"/",
+        href:"/YOGESH-KUMAR.pdf",
         download:true
     },
     ]
