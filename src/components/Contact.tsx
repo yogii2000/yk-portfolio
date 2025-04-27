@@ -2,8 +2,8 @@ import { Element } from "react-scroll"
 const Contact = () => {
   return (
     <Element name="Contact">
-          <div className="bg-gradient-to-b from-black via-black to-gray-800 md:h-screen w-full ">
-      <div className="max-w-screen-xl h-full  sm:px-10 px-6 mx-auto flex items-center">
+          <div className=" md:h-screen w-full ">
+      <div className="max-w-screen-lg h-full  sm:px-10 px-6 mx-auto flex items-center">
         <div>
         <div className="pt-12">
         <h2 className="text-white sm:text-6xl text-4xl  font-semibold border-b-4 inline border-gray-400">Contact</h2>
@@ -20,7 +20,7 @@ const Contact = () => {
     <div className="mb-6">
         <textarea name="message" rows={5} className="shadow resize-none appearance-none border bg-black border-white rounded w-full py-2 px-3 text-white mb-3 leading-tight focus:outline-none focus:shadow-outline" placeholder="Enter Your Message"></textarea>
     </div>
-    <div className="flex items-center justify-center">
+    <div className="flex items-center mb-10 justify-center">
       <button className="bg-gradient-to-b from-cyan-500 to-blue-500  text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
         Let's Talk
       </button>

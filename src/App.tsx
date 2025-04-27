@@ -7,10 +7,12 @@ import SocialLinks from './components/SocialLinks'
 import Portfolio from './components/Portfolio'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
+import StarryCanvas from './components/StarryCanvas'
 
 function App() {
   return (
     <>
+    <StarryCanvas/>
     <DefaultHeader/>
     <Home/>
     <About/>
